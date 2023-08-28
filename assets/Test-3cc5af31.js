@@ -1,0 +1,1 @@
+import{r as o,w as a,o as r,c as s}from"./index-645b9a47.js";const u={__name:"Test",setup(n){const e=o([1,2,3,4]);a(()=>[e.value],t=>{console.log(t)},{deep:!0});function c(){e.value.splice(1,1)}return(t,l)=>(r(),s("div",{onClick:c},"111"))}};export{u as default};
