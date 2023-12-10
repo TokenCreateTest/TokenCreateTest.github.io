@@ -1,0 +1,1 @@
+import{u as o,a as s,o as c,c as n,b as r}from"./index-57098d62.js";const _={__name:"Test",setup(l){const t=o();s();async function a(){const e=await r.wallet.metamask.contractTokenFactoryV2("0xefc166e8ffe493AD85BE95Cee4a13f2B3CaaD0e5");console.log(await e.getOwnRecords(t.walletAddress,0,5))}return(e,u)=>(c(),n("button",{onClick:a},"Test"))}};export{_ as default};
